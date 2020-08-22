@@ -1,0 +1,31 @@
+############ Global CSS #######################
+
+
+
+/* You can add global styles to this filr, and also import other style */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #222222;
+}
+
+
+
+
+############# todos.component.css CSS #######################
+
+
+.completedTodo {
+  color: darkgray;
+  text-decoration: line-through;
+}
